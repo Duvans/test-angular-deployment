@@ -11,7 +11,7 @@ const express = require('express')
 const app = express()
 
 //penerapan middleware
-// app.use(requireHTTPS)
+app.use(requireHTTPS)
 app.use(express.static('./dist/test-angular-deployment'))
 
 //proses handle request->method get
