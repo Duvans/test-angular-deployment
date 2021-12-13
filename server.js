@@ -20,5 +20,5 @@ app.get('/*', (req, res) => req.sendFile('index.html', {root: 'dist/test-angular
 const port = process.env.PORT || 8000
 app.listen(port, () => 
 {
-    console.log(`Example app listening att http://localhost:${port}`)
+    console.log(`Example app listening at http://localhost:${port}`)
 })
